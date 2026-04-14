@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react'
 import './App.css'
-import profileImage from './assets/WhatsApp Image 2026-04-13 at 20.13.39.jpeg'
-import resumePDF from './assets/bhupendra_resume 2.1.pdf'
+import profileImage from './assets/profile.jpeg'
 
 function App() {
   const revealRefs = useRef([])
@@ -95,7 +94,7 @@ function App() {
             <a href="#contact">Contact</a>
           </nav>
 
-          <a className="button button--ghost" href={resumePDF} download="Bhupendra_Pratap_Singh_Resume.pdf">
+          <a className="button button--ghost" href="https://drive.google.com/your-resume-link" target="_blank" rel="noreferrer" title="Download Resume">
             Download Resume
           </a>
         </div>
@@ -116,7 +115,7 @@ function App() {
               <div className="hero-actions">
                 <a className="button" href="#projects">View Projects</a>
                 <a className="button button--secondary" href="#contact">Contact Me</a>
-                <a className="button button--ghost" href={resumePDF} download="Bhupendra_Pratap_Singh_Resume.pdf">
+                <a className="button button--ghost" href="https://drive.google.com/your-resume-link" target="_blank" rel="noreferrer" title="Download Resume">
                   Resume PDF
                 </a>
               </div>
@@ -382,7 +381,7 @@ function App() {
             <div className="contact-actions">
               <a className="button" href="mailto:bhuvitech2003@gmail.com">Email me</a>
               <a className="button button--secondary" href="tel:+918887651886">Call me</a>
-              <a className="button button--ghost" href={resumePDF} download="Bhupendra_Pratap_Singh_Resume.pdf">Download Resume</a>
+              <a className="button button--ghost" href="https://drive.google.com/your-resume-link" target="_blank" rel="noreferrer" title="Download Resume">Download Resume</a>
               <a className="button button--ghost" href="https://in.linkedin.com/in/bhupendra-pratap-singh-394271261" target="_blank" rel="noreferrer">LinkedIn</a>
               <a className="button button--ghost" href="https://github.com/Bhupendrapratapsingh20" target="_blank" rel="noreferrer">GitHub</a>
             </div>
